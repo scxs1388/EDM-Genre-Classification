@@ -11,21 +11,15 @@ AI project
 - keras
 
 ### 安装环境命令
-`
+```
 conda create -n tensorflow
-
 conda install tensorflow
-
 conda install pandas
-
 conda install jupyter
-
 conda install -c conda-forge librosa
-
 conda install numba==0.48.0
-
 conda install ffmpeg
-`
+```
 
 ### 参考文档
 [librosa Documents](https://librosa.org/doc/latest/index.html)
