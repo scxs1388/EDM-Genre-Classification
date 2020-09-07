@@ -24,11 +24,11 @@ from scipy.io import wavfile
 warnings.filterwarnings('ignore')
 
 # 音频文件根目录
-sample_path = 'D:/Programming/musicsample/'
-# 音频文件的6种类别
-genres = ['drumnbass', 'dubstep', 'hardstyle', 'prohouse', 'trance', 'trap']
+sample_path = ''
+# 音频文件类0别
+genres = []
 # 每种类别音频文件的目录
-music_paths = [sample_path + g + 'sample' for g in genres]
+music_paths = [sample_path + g for g in genres]
 # 每个音频文件的路径
 music_file_paths = []
 for mp in music_paths:
